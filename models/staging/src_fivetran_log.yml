@@ -88,7 +88,7 @@ sources:
             description: The dollar amount associated with the cost of your connector.
 
       - name: destination_revised
-        identifier: "{{ var('fivetran_log_destination_identifier', 'destination')}}"
+        identifier: "{{ var('fivetran_log_destination_revised_identifier', 'destination')}}"
         description: Table of the destinations that have data loaded into them. For each declared source, there will be just one record.
         columns:
           - name: id
