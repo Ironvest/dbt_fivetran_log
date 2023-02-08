@@ -3,4 +3,6 @@ version: 2
 sources:
   - name: fivetran_log
     tables:
-      - name: Warehouse
+      - name: log
+      - name: connector
+      - name: destination
