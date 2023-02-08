@@ -40,7 +40,7 @@ sources:
           - name: _fivetran_synced
             description: Timestamp of when the record was last synced.
 
-      - name: connector
+      - name: connector_revised
         identifier: "{{ var('fivetran_log_connector_identifier', 'connector')}}"
         description: >
           Table of all connectors loading data into warehouses. Note that deleted connectors 
