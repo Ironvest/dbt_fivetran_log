@@ -102,7 +102,7 @@ sources:
           - name: region
             description: Geographical region of the destination.
       
-      - name: log
+      - name: log_revised
         identifier: "{{ var('fivetran_log_log_identifier', 'log')}}"
         description: Table of logged events related to data syncs. More info on error logs [here](https://fivetran.com/docs/logs/fivetran-log#errorlogs).
         columns:
