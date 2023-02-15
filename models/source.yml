@@ -6,3 +6,9 @@ sources:
       - name: log
       - name: connector
       - name: destination
+      
+  - name: aurora
+    database: FIVETRAN_DATABASE
+    tables:
+      - name: AURORA_LICENSE_PLATFORM.MASKME_USER_DATA
+      - name: USERS
