@@ -11,6 +11,11 @@ models:
       +schema: stg_fivetran_log
       tmp:
         +materialized: view 
+      
+  aurora:
+    +materialized: table
+    +schema: aurora
+    
 
 vars:
   fivetran_log:
