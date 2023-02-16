@@ -1,5 +1,5 @@
 {{config(materialized = 'table')}}
 
 
-select mud.*
+select *
 from {{ source('aurora', 'USERS') }}
