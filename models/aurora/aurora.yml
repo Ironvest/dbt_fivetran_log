@@ -2,4 +2,13 @@ version: 2
 
 models:
 
-  - name: users
+    name: users
+  
+    columns:
+
+      name: CREATED_AT
+        description: enter description here
+
+      name: ID
+
+      name: MASKME_USER_DATA_ID
