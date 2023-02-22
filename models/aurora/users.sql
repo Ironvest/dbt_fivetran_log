@@ -2,4 +2,4 @@
 
 
 select *
-from {{ source('aurora', 'USERS') }}
+from {{ source('aurora_license_platform', 'USERS') }}
