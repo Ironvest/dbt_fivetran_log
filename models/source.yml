@@ -7,8 +7,7 @@ sources:
       - name: connector
       - name: destination
       
-  - name: aurora
-    database: FIVETRAN_DATABASE
+  - name: aurora_license_platform
     tables:
       - name: MASKME_USER_DATA
       - name: USERS
